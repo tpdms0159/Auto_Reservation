@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^11.14.0",
+    "axios": "^1.7.9",
     "cra-template-typescript": "1.2.0",
+    "emotion": "^11.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^3.5.2"
+    "web-vitals": "^3.5.2",
+    "zustand": "^5.0.2"
   },
   "scripts": {
+    "lint": "eslint --fix .",
+    "format": "prettier --write .",
+    "lint:check": "eslint .",
+    "format:check": "prettier --check .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,6 +43,14 @@
     ]
   },
   "devDependencies": {
-    "@types/jest": "^29.5.14"
+    "@eslint/js": "^9.17.0",
+    "@types/jest": "^29.5.14",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.14.0",
+    "prettier": "3.4.2",
+    "typescript-eslint": "^8.18.1"
   }
 }
