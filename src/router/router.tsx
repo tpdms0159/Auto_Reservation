@@ -1,8 +1,13 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import MainIndex from '../pages/Main/Index';
 
-function router() {
-  return <Routes></Routes>;
+function Router() {
+  return (
+    <Routes>
+      <Route path="" element={<MainIndex />} />
+    </Routes>
+  );
 }
 
-export default router;
+export default Router;
