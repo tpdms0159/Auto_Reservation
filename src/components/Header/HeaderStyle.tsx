@@ -1,12 +1,10 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   position: sticky;
-
   width: 100%;
   background-color: white;
 `;
@@ -17,8 +15,3 @@ export const Logo = styled.div`
   color: black;
 `;
 
-export const UserImg = styled.img`
-  width: 3rem;
-  height: 3rem;
-  padding: 2rem;
-`;
