@@ -12,11 +12,7 @@ function Login() {
         alignItems: 'center',
       }}
     >
-      <img
-        src={loginImg}
-        style={{ width: '40%', height: '100%' }}
-        alt="login"
-      />
+      <img src={loginImg} style={{ width: '30%' }} alt="login" />
       <LoginForm />
     </div>
   );
